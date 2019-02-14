@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>MainPage</title>
+</head>
+
+<body>
+
+  <div class="background"></div>
+
+  <div class="container-1">
+
+
+    <header>
+
+      <div class="container-2">
+        <div class="nav-bar1">
+          <div class="header-brand">
+            <img src="images/image17.png" alt="BrandIcon">
+            <div class="brand-content">
+              <a href="#">თბილისის სატრანსპორტო კომპანია</a>
+              <hr class="first-hr">
+              <span><a href="#">TBILISI TRANSPORT COMPANY</a></span>
+            </div>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">ჩვენს შესახებ</a></li>
+              <li><a href="#">სერვისები</a></li>
+              <li><a href="#">სტრუქტურა</a></li>
+              <li><a href="#">შესყიდვები</a></li>
+              <li><a href="#">კონტაქტი</a></li>
+              <li><a href="#">ვაკანსიები</a></li>
+            </ul>
+
+          </nav>
+          <a href="#" class="lang-switch">EN / GE</a>
+        </div>
+
+
+        <div class="nav-bar2">
+          <div class="nav-images"><img src="images/map.png" alt="მგზავრობის დაგეგმვა" style="width: 100.5px;
+    height: 74.5px">
+            <p>მგზავრობის დაგეგმვა</p>
+          </div>
+          <div class="nav-images"><img src="images/agenda.png" alt="გრაფიკები, მარშუტები" style="    width: 107px;
+    height: 75px;">
+            <p>გრაფიკები, მარშუტები</p>
+          </div>
+          <div class="nav-images"><img src="images/bus.png" alt="ავტობუსი რეალურ დროში" style="width: 88px;
+    height: 55px;">
+            <p>ავტობუსი რეალურ დროში</p>
+          </div>
+          <div class="nav-images"><img src="images/parking.svg" alt="თბილისი პარკინგი" style="width: 52.8px;
+    height: 52.9px;">
+            <p>თბილისი პარკინგი</p>
+          </div>
+          <div class="nav-images"><img src="images/tablo.png" alt="ტაბლო" style:"width: 104.5px; height: 62.5px;">
+            <p>ტაბლო</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="images/main.png" style="width:100%">
+        <img src="images/metro.png" class="metro-img">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/metro.png" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/ifif.png" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "flex";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+
+    <!--images-->
+
+    <div class="container-2">
+      <div class="row">
+        <div class="image-1">
+          <img src="images/image1.png" alt="image">
+        </div>
+        <div class="image-2">
+          <img src="images/image2.png" alt="image">
+          <img src="images/image3.png" alt="image">
+        </div>
+        <div class="image-4">
+          <img src="images/image4.png" alt="image">
+        </div>
+        <div class="image-5">
+          <img src="images/image5.png" alt="image">
+        </div>
+        <div class="image-6">
+          <img src="images/image6.png" alt="image">
+        </div>
+        <div class="image-7">
+          <img src="images/image7.png" alt="image">
+        </div>
+        <div class="image-8">
+          <img src="images/image8.png" alt="image">
+        </div>
+        <div class="image-9">
+          <img src="images/image9.png" alt="image">
+        </div>
+        <div class="image-10">
+          <img src="images/image10.png" alt="image">
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container-2">
+        <h1>სიახლეები</h1>
+        <hr class="red-line">
+        <div class="row-2">
+          <div class="image-11">
+            <img src="images/image11.png" alt="image">
+          </div>
+          <div class="image-12">
+            <img src="images/image12.png" alt="image">
+          </div>
+          <div class="image-13">
+            <img src="images/image13.png" alt="image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-2">
+      <div class="news">
+        <p>მგზავრობის რაოდენობა <small>15.12.2018</small></p>
+        <div class="news-icons">
+          <div class="image-14">
+            <img src="images/image14.png" alt="icon">
+          </div>
+          <div class="image-15">
+            <img src="images/image15.png" alt="icon">
+          </div>
+          <div class="image-16">
+            <img src="images/image16.png" alt="icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
