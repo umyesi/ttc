@@ -1,192 +1,300 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="dist/partialviewslider.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="dist/partialviewslider.js"></script>
     <title>MainPage</title>
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+    <!-- <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
-      function plusSlides(n) {
+    function plusSlides(n) {
         showSlides((slideIndex += n));
-      }
+    }
 
-      function currentSlide(n) {
+    function currentSlide(n) {
         showSlides((slideIndex = n));
-      }
+    }
 
-      function showSlides(n) {
+    function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName('mySlides');
         var dots = document.getElementsByClassName('dot');
         if (n > slides.length) {
-          slideIndex = 1;
+            slideIndex = 1;
         }
         if (n < 1) {
-          slideIndex = slides.length;
+            slideIndex = slides.length;
         }
         for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = 'none';
+            slides[i].style.display = 'none';
         }
         for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(' active', '');
+            dots[i].className = dots[i].className.replace(' active', '');
         }
         slides[slideIndex - 1].style.display = 'flex';
         dots[slideIndex - 1].className += ' active';
-      }
-    </script>
-  </head>
-  <body>
+    }
+    </script> -->
+</head>
+
+<body>
     <header>
-      <div class="container-2">
-        <div class="nav-bar1">
-          <div class="header-brand">
+        <div class="container-2">
+            <div class="nav-bar1">
+                <div class="logo1">
+                    <img src="images/logo1.png" alt="logo">
+                </div>
+                <!-- <div class="header-brand">
             <img src="images/image17.png" alt="BrandIcon" />
             <div class="brand-content">
               <a href="#">თბილისის სატრანსპორტო კომპანია</a>
               <hr class="first-hr" />
               <span><a href="#">TBILISI TRANSPORT COMPANY</a></span>
             </div>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="#">ჩვენს შესახებ</a></li>
-              <li><a href="#">სერვისები</a></li>
-              <li><a href="#">სტრუქტურა</a></li>
-              <li><a href="#">შესყიდვები</a></li>
-              <li><a href="#">კონტაქტი</a></li>
-              <li><a href="#">ვაკანსიები</a></li>
-            </ul>
-          </nav>
-          <a href="#" class="lang-switch">EN / GE</a>
+          </div>  khelit atskobili -->
+                <nav>
+                    <ul>
+                        <li><a href="#">ჩვენს შესახებ</a></li>
+                        <li><a href="#">სერვისები</a></li>
+                        <li><a href="#">სტრუქტურა</a></li>
+                        <li><a href="#">შესყიდვები</a></li>
+                        <li><a href="#">კონტაქტი</a></li>
+                        <li><a href="#">ვაკანსიები</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="lang-switch">EN / GE</a>
+            </div>
+            <div class="nav-bar2">
+                <a href="#" class="nav-images">
+                    <img src="images/map.png" alt="მგზავრობის დაგეგმვა">
+                    <h2>მგზავრობის დაგეგმვა</h2>
+                </a>
+                <a href="#" class="nav-images">
+                    <img src="images/agenda.png" alt="გრაფიკები, მარშუტები">
+                    <h2>გრაფიკები, მარშუტები</h2>
+                </a>
+                <a href="#" class="nav-images">
+                    <img src="images/bus.png" alt="ავტობუსი რეალურ დროში">
+                    <h2>ავტობუსი რეალურ დროში</h2>
+                </a>
+                <a href="#" class="nav-images">
+                    <img src="images/parking.png" alt="თბილისი პარკინგი">
+                    <h2>თბილისი პარკინგი</h2>
+                </a>
+                <a href="#" class="nav-images">
+                    <img src="images/tablo.png" alt="ტაბლო">
+                    <h2>ტაბლო</h2>
+                </a>
+            </div>
         </div>
-
-        <div class="nav-bar2">
-          <div class="nav-images">
-            <img src="images/map.png" alt="მგზავრობის დაგეგმვა">
-            <h2>მგზავრობის დაგეგმვა</h2>
-          </div>
-          <div class="nav-images">
-            <img src="images/agenda.png" alt="გრაფიკები, მარშუტები">
-            <h2>გრაფიკები, მარშუტები</h2>
-          </div>
-          <div class="nav-images">
-            <img src="images/bus.png" alt="ავტობუსი რეალურ დროში">
-            <h2>ავტობუსი რეალურ დროში</h2>
-          </div>
-          <div class="nav-images">
-            <img src="images/parking.png" alt="თბილისი პარკინგი">
-            <h2>თბილისი პარკინგი</h2>
-          </div>
-          <div class="nav-images">
-            <img src="images/tablo.png" alt="ტაბლო">
-            <h2>ტაბლო</h2>
-          </div>
-        </div>
-      </div>
     </header>
+    <!-- slider -->
+    <ul id="partial-view" style="margin-left: -242px">
+        <li>
+            <img src="images/main.png" width: 1080px; height: 512px;>
+        </li>
+        <li>
+            <img src="images/metro.png" style="height: 532px;">
+        </li>
+        <li>
+            <img src="">
+        </li>
+        <li>
+            <img src="">
+        </li>
+        <li>
+            <img src="">
+        </li>
+        ...
+    </ul>
+    <script>
+    var mySlider = $('#partial-view').partialViewSlider();
+    </script>
+    <script>
+    $('#partial-view').partialViewSlider({
 
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img src="images/main.png" style="width:100%" />
-        <img src="images/metro.png" class="metro-img" />
-        <div class="text">Caption Text</div>
-      </div>
+        // 70%
+        width: 70,
 
-      <div class="mySlides fade">
-        <img src="images/metro.png" style="width:100%" />
-        <div class="text">Caption Two</div>
-      </div>
+        // shows controls
+        controls: true,
 
-      <div class="mySlides fade">
-        <img src="images/ifif.png" style="width:100%" />
-        <div class="text">Caption Three</div>
-      </div>
+        // inside, outside, neighbors
+        controlsPosition: 'inside',
 
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br />
+        // shows background
+        backdrop: true,
 
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+        // shows pagination dots
+        dots: true,
+
+        // enable autoplay
+        auto: false,
+
+        // transition speed in ms
+        transitionSpeed: 400,
+
+        // autoplay delay in ms
+        delay: 4000,
+
+        // enable pause on hover
+        pauseOnHover: true,
+
+        // enable keyboard interactions
+        keyboard: true,
+
+        // enable perspective mode
+        perspective: false,
+
+        // custom next/prev arrows
+        prevHtml: '<i class="material-icons">chevron_left</i>',
+        nextHtml: '<i class="material-icons">chevron_right</i>'
+
+    });
+    </script>
+    <script>
+    $('#partial-view').partialViewSlider({
+
+        onLoad: function() {},
+        onSlideEnd: function() {}
+
+    });
+    </script>
     <!--images-->
-
     <div class="container-2">
-      <div class="row">
-        <div class="image-1">
-          <img src="images/image1.png" alt="image" />
+        <div class="row">
+            <div class="image-1">
+                <img src="images/image1.png" alt="image" />
+            </div>
+            <div class="image-2">
+                <img src="images/image2.png" alt="image" />
+                <img src="images/image3.png" alt="image" />
+            </div>
+            <div class="image-4">
+                <img src="images/image4.png" alt="image" />
+                <div id="image-4">
+                    <h2>ჯარიმების გადახდა</h2>
+                </div>
+            </div>
+            <div class="image-5">
+                <img src="images/image5.png" alt="image" />
+                <div id="image-5">
+                    <h2>ონლაინ <br>დახმარება</h2>
+                </div>
+            </div>
+            <div class="image-6">
+                <img src="images/image6.png" alt="image" />
+                <div id="image-6">
+                    <h2>სიახლეები</h2>
+                </div>
+            </div>
+            <div class="image-7">
+                <img src="images/image7.png" alt="image" />
+                <div id="image-7">
+                    <h2>ტარიფები</h2>
+                </div>
+            </div>
+            <div class="image-8">
+                <img src="images/image8.png" alt="image" />
+                <div id="image-8">
+                    <h2>თბილისის ტრანსპორტის ისტორია</h2>
+                </div>
+            </div>
+            <div class="image-9">
+                <img src="images/image9.png" alt="image" />
+                <div id="image-9">
+                    <h2>წლიური შედეგები</h2>
+                </div>
+            </div>
+            <div class="image-10">
+                <img src="images/image10.png" alt="image" />
+                <div id="image-10">
+                    <h2>რეკლამა</h2>
+                </div>
+            </div>
         </div>
-        <div class="image-2">
-          <img src="images/image2.png" alt="image" />
-          <img src="images/image3.png" alt="image" />
-        </div>
-        <div class="image-4">
-          <img src="images/image4.png" alt="image" />
-        </div>
-        <div class="image-5">
-          <img src="images/image5.png" alt="image" />
-        </div>
-        <div class="image-6">
-          <img src="images/image6.png" alt="image" />
-        </div>
-        <div class="image-7">
-          <img src="images/image7.png" alt="image" />
-        </div>
-        <div class="image-8">
-          <img src="images/image8.png" alt="image" />
-        </div>
-        <div class="image-9">
-          <img src="images/image9.png" alt="image" />
-        </div>
-        <div class="image-10">
-          <img src="images/image10.png" alt="image" />
-        </div>
-      </div>
     </div>
-
     <section>
-      <div class="container-2">
-        <h1>სიახლეები</h1>
-        <hr class="red-line" />
-        <div class="row-2">
-          <div class="image-11">
-            <img src="images/image11.png" alt="image" />
-          </div>
-          <div class="image-12">
-            <img src="images/image12.png" alt="image" />
-          </div>
-          <div class="image-13">
-            <img src="images/image13.png" alt="image" />
-          </div>
+        <div class="container-2">
+            <h1>სიახლეები</h1>
+            <hr class="red-line" />
+            <div class="row-2">
+                <div class="image-11">
+                    <img src="images/image11.png" alt="image" />
+                    <h2>დღეს თბილისში დასრულდა საფარის დაგება</h2>
+                    <p>20 დეკ 2018</p>
+                </div>
+                <div class="image-12">
+                    <img src="images/image12.png" alt="image" />
+                    <h2>გაიხსნა ახალი მეტროს სადგური “უნივერსიტეტი”</h2>
+                    <p>20 დეკ 2018</p>
+                </div>
+                <div class="image-13">
+                    <img src="images/image13.png" alt="image" />
+                    <h2>ვიღაც ბიჭი მოხვდა <br> კადრში</h2>
+                    <p>20 დეკ 2018</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-
     <div class="container-2">
-      <div class="news">
-        <p>მგზავრობის რაოდენობა <small>15.12.2018</small></p>
-        <div class="news-icons">
-          <div class="image-14">
-            <img src="images/image14.png" alt="icon" />
-          </div>
-          <div class="image-15">
-            <img src="images/image15.png" alt="icon" />
-          </div>
-          <div class="image-16">
-            <img src="images/image16.png" alt="icon" />
-          </div>
+        <div class="news">
+            <p>მგზავრობის რაოდენობა</p><span>15.12.2018</span>
         </div>
-      </div>
+        <div class="news-icons">
+            <div class="image-14">
+                <img src="images/image14.png" alt="icon" "width=" 43px" height="43px" />
+                <div class="icon-info">
+                    <h5>347 988<h5>
+                            <p>მეტრო</p>
+                </div>
+            </div>
+            <div class="image-15">
+                <img src="images/image15.png" alt="icon" "width=" 51px" height="29px" style="margin-top: 11px;" />
+                <div class="icon-info">
+                    <h5>330 336<h5>
+                            <p>ავტობუსი</p>
+                </div>
+            </div>
+            <div class="image-16">
+                <img src="images/image16.png" alt="icon" "width=" 43px" height="43px" />
+                <div class="icon-info">
+                    <h5>2 757<h5>
+                            <p>საბაგირო გზა</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </body>
+    <footer>
+        <hr>
+        <div class="part-1 container-2">
+            <ul>
+                <li><a id="active" href="#">მთავარი</a></li>
+                <li><a href="#">ჩვენს შესახებ</a></li>
+                <li><a href="#">სერვისები</a></li>
+                <li><a href="#">სტრუქტურა</a></li>
+                <li><a href="#">შესყიდვები</a></li>
+                <li><a href="#">კონტაქტი</a></li>
+                <li><a href="#">ვაკანსიები</a></li>
+            </ul>
+        </div>
+        <div id="background">
+            <div class="container-2">
+                <div class="part-2">
+                    <img class="footer-icon1" src="images/footer-icon.png" alt="icon">
+                    <p>ყველა უფლება დაცულია © 2018 თბილისის სატრანსპორტო კომპანია</p>
+                    <img class="footer-icon2" src="images/footer-icon2.png" alt="icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
