@@ -326,12 +326,31 @@ nav {
     padding-bottom: 1.5em;
 }
 
+
+.slider-main2 {
+    height: 761px;
+}
+
+.slider-prev {
+    position: absolute;
+    margin-left: 996px;
+    margin-top: 306px;
+}
+
+.slider-next {
+    margin-top: 611px;
+    margin-right: 199px;
+}
+
 #slider-caption {
-    margin-top: 386px;
+    margin-top: -163px;
     margin-left: 58px;
     position: absolute;
     z-index: 1;
     width: 662px;
+}
+
+#slider-caption h2 {
     font-family: 'BPGNinoMtavruli-Bold';
     font-size: 53px;
     height: 122px;
@@ -766,5 +785,5 @@ footer {
 }
 
 #footer-hr {
-  background-color: #aaaeb8;
+    background-color: #aaaeb8;
 }

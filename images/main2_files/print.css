@@ -1,0 +1,63 @@
+@media print {
+
+	#newsspace_table,
+	#h_mainspace_left,
+	#boxtable_titlespace,
+	.print_me,
+	.fb-like,
+	.fb_edge_widget_with_comment,
+	.fb_iframe_widget,
+	#georgia_content_slider,
+	.gallery-element,
+	.attached-docs,
+	#georgia_search_lang,
+	#admin_menu,
+	.edit_me,
+	#sub_categories,
+	.menu,
+	.blocks_right,
+	.blocks_left,
+	.txt img,
+	#footer_topspace,
+	.facebook {
+		display:none !important;	
+	}
+
+
+	.txt_page {
+		width: 980px !important;
+		float: left;
+		font-size: 18px;
+		margin-left: -7px;
+	}
+	
+	#georgia_content { background: none !important }
+	.txt_page p,
+	.txt_page ul,
+	.txt_page ol { font-size: 22px !important; }
+	
+	.pageTitle { font-size: 32px !important; width: 900px; line-height: 27px; }
+	
+	#georgia_logospace .print { display: block !important; }
+	
+	#georgia_logospace a img:first-child { display: none; }
+
+	
+	.date,
+	.itdc_title,
+	#endspace h2 { font-size: 18px !important;  }
+	
+	.date { margin: 20px 0 !important; }
+	
+	.txt p,
+	.txt li,
+	.txt a { font-size: 22px !important; line-height: 27px; }
+
+	
+}
+
+
+
+
+
+
