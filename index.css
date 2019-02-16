@@ -342,15 +342,23 @@ nav {
     margin-right: 199px;
 }
 
-#slider-caption {
-    margin-top: -163px;
-    margin-left: 58px;
+
+.carousel-item.active .carousel-caption {
     position: absolute;
-    z-index: 1;
+    right: 15%;
+    bottom: 35px;
+    left: 58px;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
     width: 662px;
+    height: 122px;
+    text-align: unset;
 }
 
-#slider-caption h2 {
+
+.carousel-caption h3 {
     font-family: 'BPGNinoMtavruli-Bold';
     font-size: 53px;
     height: 122px;
@@ -523,10 +531,13 @@ nav {
 }
 
 .image-9 {
-    margin-top: 10px;
+    margin-top: 24px;
+
 }
 
-.image-9 img {}
+.image-9 img {
+    vertical-align: super;
+}
 
 #image-9 {
     /*margin-top: -55px;*/
@@ -543,7 +554,7 @@ nav {
 
 .image-10 {
     margin-left: 12px;
-    margin-top: 10px;
+    margin-top: 24px;
 }
 
 .image-10 img {}
