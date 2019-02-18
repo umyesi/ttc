@@ -261,7 +261,10 @@ nav {
   height: 2px;
   color: white;
   background-color: white;
-}**/
+}     
+
+
+**/
 .nav-bar1 nav ul {
     display: flex;
 }
@@ -288,8 +291,8 @@ nav {
     display: none;
 }
 
-.nav-bar1 nav ul li a:hover {
-    background: #fff;
+.nav-bar1 nav ul li:hover a {
+    background: white;
     color: #000000;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -301,33 +304,45 @@ nav {
 
 #nav-dropdown ul {
     display: none;
+    color: black;
     position: absolute;
     background-color: white;
-    padding: 8px;
     border-radius: 0px 0px 4px 4px;
     width: 268px;
-    height: 227px;
+    height: 182px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 #nav-dropdown:hover ul {
     display: block;
     z-index: 1;
-    margin-top: 43px;
+    margin-top: 44px;
+    padding-top: 12px;
+
 }
 
 #nav-dropdown ul li::after {
     border-top: none;
+
 }
 
 #nav-dropdown ul li {
-    width: 180px;
-    border-radius: 4px;
+
     display: inline;
+    padding: 0 0 0 0;
+}
+
+#nav-dropdown ul li a {}
+
+#nav-dropdown ul li a:hover {
+
+    background-color: #f7f7f7 !important;
+
 }
 
 #nav-dropdown ul li a {
-    width: 180px;
+
     font-family: "BPGMrgvlovani2010";
     font-size: 13px;
     font-weight: normal;
@@ -338,10 +353,11 @@ nav {
     color: #000000;
 }
 
-#nav-dropdown ul a:hover {
-    padding: 8px 14px;
-    background-color: #f3f3f3;
+#nav-dropdown ul li:hover {
+
+    background-color: white;
     text-decoration: none;
+
 }
 
 .lang-switch {
@@ -374,7 +390,7 @@ nav {
 
 .nav-bar2 .nav-images h2 {
     font-family: 'BPGNinoMtavruli-Bold';
-    font-weight: 900;
+
     color: #15181f;
     font-size: 18px;
 }
@@ -384,21 +400,44 @@ nav {
 }
 
 
-.slider-main2 {
+.carousel-inner .slider-main2 {
     height: 761px;
+
 }
 
-.slider-prev {
-    position: absolute;
-    margin-left: 996px;
-    margin-top: 306px;
+.carousel-item .d-block {
+    height: 761px;
+
 }
 
-.slider-next {
-    margin-top: 611px;
-    margin-right: 199px;
+.carousel-control-next,
+.carousel-control-prev {
+    top: 87% !important;
+    opacity: 1.5 !important;
+    width: 70px !important;
 }
 
+.carousel-control-prev {
+    width: 70% !important;
+}
+
+.carousel-control-prev #left {
+    margin-left: 91%;
+    width: 80px;
+    height: 14px;
+    object-fit: contain;
+}
+
+.carousel-control-next {
+    width: 30% !important;
+}
+
+.carousel-control-next #right {
+    margin-right: 70%;
+    width: 80px;
+    height: 14px;
+    object-fit: contain;
+}
 
 .carousel-item.active .carousel-caption {
     position: absolute;
@@ -597,7 +636,7 @@ nav {
 }
 
 .image-9 {
-    margin-top: 24px;
+    margin-top: 13px;
 
 }
 
@@ -620,7 +659,7 @@ nav {
 
 .image-10 {
     margin-left: 12px;
-    margin-top: 24px;
+    margin-top: 13px;
 }
 
 .image-10 img {}
