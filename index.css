@@ -152,6 +152,13 @@ select {
     vertical-align: middle;
 }
 
+
+
+.h2,
+h2 {
+    font-size: unset;
+}
+
 /*My Code*/
 * {
     text-decoration: none;
@@ -183,8 +190,13 @@ html {
     margin: 0;
     padding: 0px;
     min-height: 100%;
+    text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none !important;
+    color: unset !important;
+}
 
 .container-2 {
     width: 1320px;
@@ -287,6 +299,51 @@ nav {
     display: block;
 }
 
+#nav-dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+    border-radius: 0px 0px 4px 4px;
+    width: 268px;
+    height: 227px;
+
+}
+
+#nav-dropdown:hover ul {
+    display: block;
+    z-index: 1;
+    margin-top: 43px;
+}
+
+#nav-dropdown ul li::after {
+    border-top: none;
+}
+
+#nav-dropdown ul li {
+    width: 180px;
+    border-radius: 4px;
+    display: inline;
+}
+
+#nav-dropdown ul li a {
+    width: 180px;
+    font-family: "BPGMrgvlovani2010";
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.08;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+#nav-dropdown ul a:hover {
+    padding: 8px 14px;
+    background-color: #f3f3f3;
+    text-decoration: none;
+}
+
 .lang-switch {
     color: #ffffff;
     font-size: 12px;
@@ -369,6 +426,15 @@ nav {
     display: flex;
     flex-wrap: wrap;
     padding-top: 60px;
+}
+
+
+.row h2 {
+    font-size: unset;
+    margin-bottom: unset;
+    font-weight: unset;
+    line-height: unset;
+    margin-top: unset;
 }
 
 
