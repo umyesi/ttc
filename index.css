@@ -310,8 +310,9 @@ nav {
     border-radius: 0px 0px 4px 4px;
     width: 268px;
     height: 182px;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.19);
 }
 
 #nav-dropdown:hover ul {
@@ -329,11 +330,11 @@ nav {
 
 #nav-dropdown ul li {
 
-    display: inline;
+    width: 100%;
     padding: 0 0 0 0;
 }
 
-#nav-dropdown ul li a {}
+
 
 #nav-dropdown ul li a:hover {
 
@@ -348,7 +349,7 @@ nav {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 3.08;
+    width: 100%;
     letter-spacing: normal;
     color: #000000;
 }
@@ -416,6 +417,8 @@ nav {
     opacity: 1.5 !important;
     width: 70px !important;
 }
+
+
 
 .carousel-control-prev {
     width: 70% !important;
