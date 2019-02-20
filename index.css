@@ -325,7 +325,7 @@ nav {
 #nav-dropdown:hover ul {
     display: block;
     z-index: 1;
-    margin-top: 44px;
+    margin-top: 38px;
     padding-top: 12px;
 
 }
