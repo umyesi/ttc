@@ -189,13 +189,20 @@ body,
 html {
     margin: 0;
     padding: 0px;
-    min-height: 100%;
+
     text-decoration: none;
 }
+
 
 a:hover {
     text-decoration: none !important;
     color: unset !important;
+}
+
+.container-1 {
+    position: absolute;
+    min-width: 100%;
+
 }
 
 .container-2 {
@@ -826,7 +833,7 @@ footer {
     display: flex;
     list-style-type: none;
     text-decoration: none;
-    padding: 52px 440px 54px 0px;
+    padding: 32px 440px 54px 0px;
     white-space: nowrap;
 }
 
