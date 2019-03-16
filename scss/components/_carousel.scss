@@ -1,0 +1,47 @@
+/* Carousel */
+
+.carousel-images {
+  height: 761px;
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 35px;
+  left: 58px;
+  z-index: 10;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: $font-light;
+  text-align: unset;
+  width: 400px;
+
+  h3 {
+
+    font-family: 'BPGNinoMtavruli-Bold';
+    font-size: 53px;
+    height: 122px;
+    color: $font-light;
+    line-height: 1.2;
+  }
+}
+
+%carousel-control {
+  opacity: 1;
+  width: fit-content;
+  z-index: 1;
+}
+
+.carousel-control-prev {
+  left: 885px;
+  top: 667px;
+  @extend %carousel-control;
+}
+
+.carousel-control-next {
+  right: 347px;
+  top: 667px;
+  @extend %carousel-control;
+}
+

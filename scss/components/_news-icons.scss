@@ -1,0 +1,28 @@
+.news-icons {
+  display: flex;
+  padding-top: 6px;
+  div {
+    display: flex;
+    padding-right: 31px;
+  }
+}
+
+.icon-info {
+  margin-left: 13px;
+  flex-direction: column;
+  h5 {
+    font-family: Avenir-Medium;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2.7px;
+    color: #1d1e1f;
+  }
+  p {
+    font-family: BPGMrgvlovani2010;
+    font-size: 14px;
+    color: #1d1e1f;
+    font-weight: initial;
+    margin-top: -8px;
+    letter-spacing: 0.8px;
+  }
+}

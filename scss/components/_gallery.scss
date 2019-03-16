@@ -1,0 +1,163 @@
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 54px;
+}
+
+.image-1 {
+  position: relative;
+  height: min-content;
+
+  img {
+    width: 322px;
+    height: 522px;
+    border-radius: 4px;
+  }
+}
+
+.image-2 {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  margin: 318px 49px 49px;
+
+  img {
+    width: 224px;
+    height: 70px;
+    margin-bottom: 15px;
+  }
+}
+
+%figcaption {
+  font-weight: bold;
+  color: $font-light;
+  font-family: BPG Nino Mtavruli;
+}
+
+.image-4 {
+  position: relative;
+  height: min-content;
+  margin-left: 11px;
+
+  img {
+    width: 654px;
+    height: 256px;
+  }
+
+  figcaption {
+    @extend %figcaption;
+    margin-top: -64px;
+    margin-left: 27px;
+    width: 261px;
+    height: 30px;
+    font-size: 26px;
+  }
+}
+
+.image-5 {
+  position: relative;
+  height: min-content;
+  margin-left: 11px;
+
+  img {
+    width: 322px;
+    height: 256px;
+    object-fit: contain;
+  }
+
+  figcaption {
+    @extend %figcaption;
+    margin-top: -88px;
+    margin-left: 35px;
+    font-size: 26px;
+    line-height: 1;
+  }
+}
+
+.image-6 {
+  position: absolute;
+  height: min-content;
+  margin-left: 333px;
+  margin-top: 265px;
+
+  img {
+    width: 322px;
+    height: 256px;
+    object-fit: contain;
+  }
+
+  figcaption {
+    @extend %figcaption;
+    margin-top: -55px;
+    margin-left: 37px;
+    font-size: 26px;
+  }
+}
+
+.image-7 {
+  position: absolute;
+  height: min-content;
+  margin-top: 264px;
+  margin-left: 664px;
+
+  img {
+    width: 654.7px;
+    height: 256px;
+  }
+
+  figcaption {
+    @extend %figcaption;
+    /*margin-top: -55px;*/
+    margin-left: 38px;
+    font-size: 26px;
+  }
+}
+
+.image-8 {
+  position: relative;
+  height: min-content;
+  margin-bottom: 6px;
+  margin-top: -2px;
+
+  img {
+    width: 1320px;
+    height: 256px;
+    object-fit: contain;
+  }
+
+  figcaption {
+    @extend %figcaption;
+    margin-top: -74px;
+    margin-bottom: 21px;
+    margin-left: 42px;
+    letter-spacing: 2px;
+    font-size: 43px;
+  }
+}
+
+.image-9 {
+  margin-top: 13px;
+
+  img {
+    vertical-align: super;
+  }
+
+  figcaption {
+    @extend %figcaption;
+    /*margin-top: -55px;*/
+    margin-left: 37px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+}
+
+.image-10 {
+  margin-left: 12px;
+  margin-top: 13px;
+
+  figcaption {
+    @extend %figcaption;
+    font-size: 26px;
+  }
+}

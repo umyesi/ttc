@@ -1,0 +1,21 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+a {
+  color: $base-font-color;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: 1.7em;
+  color: $base-font-color;
+}

@@ -160,6 +160,8 @@ h2 {
 }
 
 /*My Code*/
+
+
 * {
     text-decoration: none;
     box-sizing: border-box;
@@ -268,10 +270,10 @@ nav {
   height: 2px;
   color: white;
   background-color: white;
-}     
+}     **/
 
 
-**/
+
 .nav-bar1 nav ul {
     display: flex;
 }
@@ -372,7 +374,6 @@ nav {
     color: #ffffff;
     font-size: 12px;
     margin-top: -1px;
-    ;
 }
 
 .nav-bar2 {
@@ -398,7 +399,6 @@ nav {
 
 .nav-bar2 .nav-images h2 {
     font-family: 'BPGNinoMtavruli-Bold';
-
     color: #15181f;
     font-size: 18px;
 }
@@ -410,7 +410,6 @@ nav {
 
 .carousel-inner .slider-main2 {
     height: 761px;
-
 }
 
 .carousel-item .d-block {
@@ -487,7 +486,6 @@ nav {
 }
 
 
-
 .image-1 {
     position: relative;
     height: min-content;
@@ -556,15 +554,8 @@ nav {
     font-family: BPG Nino Mtavruli;
     font-size: 26px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #ffffff;
 }
-
-
-
 
 
 .image-6 {
@@ -586,10 +577,6 @@ nav {
     font-family: BPG Nino Mtavruli;
     font-size: 26px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #ffffff;
 }
 
@@ -611,10 +598,6 @@ nav {
     font-family: BPG Nino Mtavruli;
     font-size: 26px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #ffffff;
 }
 
@@ -639,9 +622,6 @@ nav {
     font-family: BPG Nino Mtavruli;
     font-size: 43px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
     color: #ffffff;
 }
 
@@ -671,8 +651,6 @@ nav {
     margin-left: 12px;
     margin-top: 13px;
 }
-
-.image-10 img {}
 
 #image-10 {
     font-family: BPG Nino Mtavruli;
@@ -707,9 +685,6 @@ section .container-2 {
     height: 64px;
     font-family: BPGMrgvlovani2010;
     font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.6;
     letter-spacing: 1.4px;
     color: #1d212c;
@@ -729,7 +704,6 @@ section .container-2 {
     margin-left: 30px;
 }
 
-.image-12 img {}
 
 .image-13 {
     margin-left: 30px;
@@ -767,10 +741,6 @@ section .container-2 {
     font-family: BPGNinoMtavruli;
     font-size: 20px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #1d1e1f;
 }
 
@@ -880,11 +850,7 @@ footer {
     height: 24px;
     font-family: BPGMrgvlovani2010;
     font-size: 10px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 2.4;
-    letter-spacing: normal;
     text-align: center;
     color: #9fa4af;
 
@@ -901,7 +867,6 @@ footer {
     width: 10px;
     height: 12px;
     margin-top: 4px;
-
 }
 
 .trial {

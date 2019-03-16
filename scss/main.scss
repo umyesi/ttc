@@ -1,0 +1,52 @@
+/**   /* BASE - Base styles, variables, mixins, etc 
+
+
+@import 'base/_fonts.scss';
+@import 'base/_mixins.scss';
+
+
+
+/* MODULES - Individual site components 
+
+@import 'modules/_typography.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_components.scss';
+@import 'modules/_forms.scss';  */
+
+/* LAYOUTS - Page layout styles 
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_blog.scss';
+@import 'layouts/_mobile.scss';  */
+
+/**BASE - Base styles, variables, mixins, etc */
+
+@import 'base/_variables.scss';
+@import 'base/_reset.scss';
+@import 'base/_fonts.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+
+
+
+/* LAYOUTS - Page layout styles*/
+
+@import 'layouts/_header.scss';
+@import 'layouts/_containers.scss';
+
+
+/* Components-Individual site components */
+
+@import 'components/_primary-navigation.scss';
+@import 'components/_secondary-navigation.scss';
+@import 'components/_carousel.scss';
+@import 'components/_gallery.scss';
+@import 'components/_news-blocks.scss';
+@import 'components/_news-icons.scss';
+@import 'components/_footer.scss';
+
+
