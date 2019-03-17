@@ -2,13 +2,12 @@
   display: flex;
   align-items: center;
   border-radius: 4px;
-  background-color: $color-white;
+  background-color: $nav2-bg-color;
   margin-top: 40px;
   height: 172px;
 
   .nav-images {
     width: 100%;
-    font-size: 80%;
     text-align: center;
     border-right: 1px solid #f6e9e9;
     padding: 10px 0;
@@ -24,9 +23,9 @@
     }
 
     h2 {
-      font-family: 'BPGNinoMtavruli-Bold';
-      color: $base-font-color;
-      font-size: 18px;
+      font-family: $nav2-font-family;
+      color: $header-secondary-font-color;
+      font-size: $header-secondary-font-size;
     }
   }
 }

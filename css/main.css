@@ -22,8 +22,13 @@
 @import 'layouts/_blog.scss';
 @import 'layouts/_mobile.scss';  */
 /**BASE - Base styles, variables, mixins, etc */
-/* Fonts */
-/* Background Colors */
+/* Basic Fonts */
+/* Header */
+/*Primary Navigation*/
+/*Secondary Navigation*/
+/*Gallery*/
+/*News Blocks*/
+/*News Icons*/
 /*footer*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -108,8 +113,6 @@ a {
 
 body {
   line-height: 1;
-  font-family: "BPGMrgvlovani2010", "BPG Nino Mtavruli", "BPGNinoMtavruli", "BPGNinoMtavruli-Bold", sans-serif;
-  font-size: 20px;
   line-height: 1.7em;
   color: #15181f; }
 
@@ -129,6 +132,17 @@ header {
   width: 1320px;
   margin: auto;
   overflow: hidden; }
+
+section .container-2 {
+  margin-top: 42px; }
+
+.news-bck {
+  background-color: #fafafa;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 532px;
+  margin-top: -48px; }
 
 /* Components-Individual site components */
 .logo1 img {
@@ -185,12 +199,12 @@ header {
 #nav-dropdown:hover ul {
   display: block;
   z-index: 1;
-  margin-top: 36px;
+  margin-top: 31px;
   padding-top: 12px; }
 
 #nav-dropdown li {
   width: 100%;
-  padding: 0 0 0 0; }
+  padding: 8px 0 0 0; }
   #nav-dropdown li:hover {
     background-color: #ffffff;
     text-decoration: none; }
@@ -199,8 +213,7 @@ header {
   #nav-dropdown li a {
     font-family: "BPGMrgvlovani2010";
     font-size: 13px;
-    width: 100%;
-    color: #000000; }
+    width: 100%; }
     #nav-dropdown li a:hover {
       background-color: #f7f7f7; }
 
@@ -208,9 +221,9 @@ header {
   color: #ffffff;
   font-size: 12px;
   margin-top: -10px;
-  font-family: BPGMrgvlovani2010; }
+  font-family: 12px; }
   .lang-switch:hover {
-    color: #000000; }
+    color: #1f2126; }
 
 .nav-bar2 {
   display: -webkit-box;
@@ -225,7 +238,6 @@ header {
   height: 172px; }
   .nav-bar2 .nav-images {
     width: 100%;
-    font-size: 80%;
     text-align: center;
     border-right: 1px solid #f6e9e9;
     padding: 10px 0;
@@ -235,7 +247,7 @@ header {
     .nav-bar2 .nav-images:last-child {
       border: none; }
     .nav-bar2 .nav-images h2 {
-      font-family: 'BPGNinoMtavruli-Bold';
+      font-family: "BPGNinoMtavruli-Bold";
       color: #15181f;
       font-size: 18px; }
 
@@ -313,7 +325,8 @@ header {
 .image-4 figcaption, .image-5 figcaption, .image-6 figcaption, .image-7 figcaption, .image-8 figcaption, .image-9 figcaption, .image-10 figcaption {
   font-weight: bold;
   color: #ffffff;
-  font-family: BPG Nino Mtavruli; }
+  font-family: "BPG Nino Mtavruli";
+  font-size: 26px; }
 
 .image-4 {
   position: relative;
@@ -325,11 +338,10 @@ header {
     width: 654px;
     height: 256px; }
   .image-4 figcaption {
-    margin-top: -64px;
+    margin-top: -70px;
     margin-left: 27px;
     width: 261px;
-    height: 30px;
-    font-size: 26px; }
+    height: 30px; }
 
 .image-5 {
   position: relative;
@@ -345,7 +357,6 @@ header {
   .image-5 figcaption {
     margin-top: -88px;
     margin-left: 35px;
-    font-size: 26px;
     line-height: 1; }
 
 .image-6 {
@@ -362,8 +373,7 @@ header {
        object-fit: contain; }
   .image-6 figcaption {
     margin-top: -55px;
-    margin-left: 37px;
-    font-size: 26px; }
+    margin-left: 37px; }
 
 .image-7 {
   position: absolute;
@@ -377,15 +387,14 @@ header {
     height: 256px; }
   .image-7 figcaption {
     /*margin-top: -55px;*/
-    margin-left: 38px;
-    font-size: 26px; }
+    margin-left: 38px; }
 
 .image-8 {
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
   margin-top: -2px; }
   .image-8 img {
     width: 1320px;
@@ -406,32 +415,18 @@ header {
   .image-9 figcaption {
     /*margin-top: -55px;*/
     margin-left: 37px;
-    font-size: 25px;
     letter-spacing: 1px; }
 
 .image-10 {
   margin-left: 12px;
   margin-top: 13px; }
-  .image-10 figcaption {
-    font-size: 26px; }
 
 section h1 {
-  font-family: BPG Nino Mtavruli;
+  font-family: "BPG Nino Mtavruli";
   font-size: 36px;
   font-weight: bold;
   color: #15181f;
-  margin-top: 3px; }
-
-section .container-2 {
-  margin-top: 42px; }
-
-.news-bck {
-  background-color: #fafafa;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 469px;
-  margin-top: -58px; }
+  margin-top: 8px; }
 
 .red-line {
   width: 226px;
@@ -440,42 +435,23 @@ section .container-2 {
   border: none;
   float: left; }
 
-.news {
-  margin-top: 100px; }
-  .news p {
-    display: inline;
-    width: 249px;
-    height: 23px;
-    font-family: BPGNinoMtavruli;
-    font-size: 20px;
-    font-weight: bold;
-    color: #1d1e1f; }
-  .news span {
-    width: 81px;
-    height: 16px;
-    opacity: 0.5;
-    font-family: BPGMrgvlovani2010;
-    font-size: 14px;
-    color: #1d1e1f;
-    margin-left: 24px; }
-
-.row-2 {
+.news-blocks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 88px; }
-  .row-2 a h2 {
+  .news-blocks a h2 {
     width: 382px;
     height: 64px;
-    font-family: BPGMrgvlovani2010;
+    font-family: "BPGMrgvlovani2010";
     font-size: 20px;
     line-height: 1.6;
     letter-spacing: 1.4px;
     color: #1d212c;
     margin-top: 12px; }
-  .row-2 a p {
+  .news-blocks a p {
     height: 30px;
-    font-family: BPGMrgvlovani2010;
+    font-family: "BPGMrgvlovani2010";
     font-size: 14px;
     letter-spacing: 1px;
     color: #787d88;
@@ -487,6 +463,25 @@ section .container-2 {
 
 .image-13 img {
   height: 264px; }
+
+.news {
+  margin-top: 100px; }
+  .news p {
+    display: inline;
+    width: 249px;
+    height: 23px;
+    font-family: "BPGNinoMtavruli";
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d1e1f; }
+  .news span {
+    width: 81px;
+    height: 16px;
+    opacity: 0.5;
+    font-family: "BPGMrgvlovani2010";
+    font-size: 14px;
+    color: #1d1e1f;
+    margin-left: 24px; }
 
 .news-icons {
   display: -webkit-box;
@@ -506,13 +501,13 @@ section .container-2 {
       -ms-flex-direction: column;
           flex-direction: column; }
   .icon-info h5 {
-    font-family: Avenir-Medium;
+    font-family: "Avenir-Medium";
     font-size: 30px;
     font-weight: 900;
     letter-spacing: 2.7px;
     color: #1d1e1f; }
   .icon-info p {
-    font-family: BPGMrgvlovani2010;
+    font-family: "BPGMrgvlovani2010";
     font-size: 14px;
     color: #1d1e1f;
     font-weight: initial;
@@ -535,18 +530,18 @@ footer {
   .part-1 ul li {
     padding-right: 48px; }
     .part-1 ul li a {
-      font-family: BPGMrgvlovani2010;
+      font-family: "BPGMrgvlovani2010";
       font-size: 12px;
       letter-spacing: 1.8px;
       color: #aaaeb8; }
     .part-1 ul li:hover {
-      font-family: BPGMrgvlovani2010;
+      font-family: "BPGMrgvlovani2010";
       font-size: 12px;
       letter-spacing: 1.8px;
       color: #181c27; }
 
 #active {
-  font-family: BPGMrgvlovani2010;
+  font-family: "BPGMrgvlovani2010";
   font-size: 12px;
   letter-spacing: 1.8px;
   color: #181c27; }
@@ -567,7 +562,7 @@ footer {
   .part-2 p {
     width: 403px;
     height: 24px;
-    font-family: BPGMrgvlovani2010;
+    font-family: "BPGMrgvlovani2010";
     font-size: 10px;
     line-height: 2.4;
     text-align: center;

@@ -22,9 +22,9 @@
     padding: 0 2px;
 
     a {
-      color: $font-light;
-      font-family: "BPGMrgvlovani2010";
-      font-size: 14px;
+      color: $header-primary-font-color;
+      font-family: $header-primary-font-family;
+      font-size: $header-primary-font-size;
       padding: 2px 13px;
     }
 
@@ -41,8 +41,8 @@
 
     &:hover {
       a {
-        background-color: $color-white;
-        color: $font-dark;
+        background-color: $nav-hover-bg-color;
+        color: $nav-hover-font-color;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
       }
@@ -60,9 +60,9 @@
 #nav-dropdown {
   ul {
     display: none;
-    color: $font-dark;
+    color: $nav-hover-font-color;
     position: absolute;
-    background-color: $color-white;
+    background-color: $nav-hover-bg-color;
     border-radius: 0px 0px 4px 4px;
     width: 268px;
     height: 182px;
@@ -73,7 +73,7 @@
     ul {
       display: block;
       z-index: 1;
-      margin-top: 36px;
+      margin-top: 31px;
       padding-top: 12px;
     }
   }
@@ -81,10 +81,10 @@
 
   li {
     width: 100%;
-    padding: 0 0 0 0;
+    padding: 8px 0 0 0;
 
     &:hover {
-      background-color: $color-white;
+      background-color: $nav-hover-bg-color;
       text-decoration: none;
     }
 
@@ -94,12 +94,12 @@
 
     a {
       font-family: "BPGMrgvlovani2010";
-      font-size: 13px;
+      font-size: $dropdown-list-font-size;
       width: 100%;
-      color: $font-dark;
+      
 
       &:hover {
-        background-color: $hover-gray;
+        background-color: $dropdown-list-hover-color;
       }
     }
   }
@@ -107,11 +107,11 @@
 
 .lang-switch {
   color: $font-light;
-  font-size: 12px;
+  font-size: $lang-switch-font-size;
   margin-top: -10px;
-  font-family: BPGMrgvlovani2010;
+  font-family: $lang-switch-font-size;
 
   &:hover {
-    color: $font-dark;
+    color: $lang-switch-hover;
   }
 }

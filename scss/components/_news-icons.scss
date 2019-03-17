@@ -1,3 +1,24 @@
+.news {
+  margin-top: 100px;
+  p {
+    display: inline;
+    width: 249px;
+    height: 23px;
+    font-family: $news-icons-font-family;
+    font-size: $news-icons-font-size;
+    font-weight: bold;
+    color: $news-icons-font-color;
+  }
+  span {
+    width: 81px;
+    height: 16px;
+    opacity: 0.5;
+    font-family: $icon-date-font-family;
+    font-size: $icon-date-font-size;
+    color: $icon-date-font-color;
+    margin-left: 24px;
+  }
+}
 .news-icons {
   display: flex;
   padding-top: 6px;
@@ -11,16 +32,16 @@
   margin-left: 13px;
   flex-direction: column;
   h5 {
-    font-family: Avenir-Medium;
-    font-size: 30px;
+    font-family: $icon-numbers-font-family;
+    font-size: $icon-numbers-font-size;
     font-weight: 900;
     letter-spacing: 2.7px;
-    color: #1d1e1f;
+    color: $icon-numbers-font-color;
   }
   p {
-    font-family: BPGMrgvlovani2010;
-    font-size: 14px;
-    color: #1d1e1f;
+    font-family: $icon-info-font-family;
+    font-size: $icon-info-font-size;
+    color: $icon-info-font-color;
     font-weight: initial;
     margin-top: -8px;
     letter-spacing: 0.8px;

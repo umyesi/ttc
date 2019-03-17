@@ -1,4 +1,3 @@
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -31,8 +30,9 @@
 
 %figcaption {
   font-weight: bold;
-  color: $font-light;
-  font-family: BPG Nino Mtavruli;
+  color: $gallery-font-color;
+  font-family: $gallery-font-family;
+  font-size: $gallery-font-size;
 }
 
 .image-4 {
@@ -47,11 +47,10 @@
 
   figcaption {
     @extend %figcaption;
-    margin-top: -64px;
+    margin-top: -70px;
     margin-left: 27px;
     width: 261px;
     height: 30px;
-    font-size: 26px;
   }
 }
 
@@ -70,7 +69,6 @@
     @extend %figcaption;
     margin-top: -88px;
     margin-left: 35px;
-    font-size: 26px;
     line-height: 1;
   }
 }
@@ -91,7 +89,6 @@
     @extend %figcaption;
     margin-top: -55px;
     margin-left: 37px;
-    font-size: 26px;
   }
 }
 
@@ -110,14 +107,13 @@
     @extend %figcaption;
     /*margin-top: -55px;*/
     margin-left: 38px;
-    font-size: 26px;
   }
 }
 
 .image-8 {
   position: relative;
   height: min-content;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
   margin-top: -2px;
 
   img {
@@ -147,7 +143,6 @@
     @extend %figcaption;
     /*margin-top: -55px;*/
     margin-left: 37px;
-    font-size: 25px;
     letter-spacing: 1px;
   }
 }
@@ -158,6 +153,5 @@
 
   figcaption {
     @extend %figcaption;
-    font-size: 26px;
   }
 }

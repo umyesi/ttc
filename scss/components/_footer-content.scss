@@ -1,7 +1,7 @@
 footer {
   padding-top: 37px;
   hr {
-    background-color: $footer-hr-bc;
+    background-color: $footer-hr-background-color;
   }
 }
 
@@ -15,31 +15,31 @@ footer {
     li {
       padding-right: 48px;
       a {
-        font-family: BPGMrgvlovani2010;
-        font-size: 12px;
+        font-family: $footer-primary-font-family;
+        font-size: $footer-primary-font-size;
         letter-spacing: 1.8px;
-        color: $footer-font-color;
+        color: $footer-primary-font-color;
       }
       &:hover {
-        font-family: BPGMrgvlovani2010;
-        font-size: 12px;
+        font-family: $footer-primary-font-family;
+        font-size: $footer-primary-font-size;
         letter-spacing: 1.8px;
-        color: $footer-font-hover;
+        color: $footer-primary-font-hover;
       }
     }
   }
 }
 
 #active {
-  font-family: BPGMrgvlovani2010;
-  font-size: 12px;
+  font-family: $footer-primary-font-family;
+  font-size: $footer-primary-font-size;
   letter-spacing: 1.8px;
-  color: $footer-font-hover;
+  color: $footer-primary-font-hover;
 }
 
 .footer-background {
   height: 80px;
-  background-color:$footer-bckg-color;
+  background-color:$footer-background-color;
   background-position: relative;
 }
 
@@ -50,11 +50,11 @@ footer {
   p {
     width: 403px;
     height: 24px;
-    font-family: BPGMrgvlovani2010;
-    font-size: 10px;
+    font-family: $footer-secondary-font-family;
+    font-size: $footer-secondary-font-size;
     line-height: 2.4;
     text-align: center;
-    color: $footer-copyright-color;
+    color: $footer-secondary-font-color;
   }
 }
 
