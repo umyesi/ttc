@@ -18,8 +18,7 @@
   width: 400px;
 
   h3 {
-
-    font-family: 'BPGNinoMtavruli-Bold';
+    font-family: "BPGNinoMtavruli-Bold";
     font-size: 53px;
     height: 122px;
     color: $font-light;
@@ -44,4 +43,3 @@
   top: 667px;
   @extend %carousel-control;
 }
-

@@ -7,7 +7,6 @@
   padding-top: 51px;
 
   nav {
-
     margin: -12px auto auto 149px;
   }
 
@@ -15,11 +14,10 @@
     display: flex;
   }
 
-
   li {
     display: flex;
     position: relative;
-    padding: 0 2px;
+    padding: 4px 2px;
 
     a {
       color: $header-primary-font-color;
@@ -37,8 +35,6 @@
       display: none;
     }
 
-
-
     &:hover {
       a {
         background-color: $nav-hover-bg-color;
@@ -53,9 +49,6 @@
     }
   }
 }
-
-
-
 
 #nav-dropdown {
   ul {
@@ -73,11 +66,10 @@
     ul {
       display: block;
       z-index: 1;
-      margin-top: 31px;
+      margin-top: 29px;
       padding-top: 12px;
     }
   }
-
 
   li {
     width: 100%;
@@ -96,7 +88,6 @@
       font-family: "BPGMrgvlovani2010";
       font-size: $dropdown-list-font-size;
       width: 100%;
-      
 
       &:hover {
         background-color: $dropdown-list-hover-color;
@@ -106,12 +97,26 @@
 }
 
 .lang-switch {
-  color: $font-light;
-  font-size: $lang-switch-font-size;
-  margin-top: -10px;
-  font-family: $lang-switch-font-size;
+  margin-top: -9px;
+
+  .active {
+    color: $lang-switch-active-color;
+  }
+
+  a {
+    color: $lang-switch-font-color;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-family: $lang-switch-font-family;
+  }
 
   &:hover {
     color: $lang-switch-hover;
+  }
+  span {
+    color: $lang-switch-active-color;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-family: $lang-switch-font-family;
   }
 }

@@ -1,13 +1,12 @@
-    .h2,
-    h2 {
-      font-size: unset;
-    }
+.h2,
+h2 {
+  font-size: unset;
+}
 
-    a {
-      text-decoration: none;
+a {
+  text-decoration: none;
 
-      &:hover {
-        text-decoration: none;
-
-      }
-    }
+  &:hover {
+    text-decoration: none;
+  }
+}

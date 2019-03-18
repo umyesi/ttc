@@ -30,16 +30,9 @@ footer {
   }
 }
 
-#active {
-  font-family: $footer-primary-font-family;
-  font-size: $footer-primary-font-size;
-  letter-spacing: 1.8px;
-  color: $footer-primary-font-hover;
-}
-
 .footer-background {
   height: 80px;
-  background-color:$footer-background-color;
+  background-color: $footer-background-color;
   background-position: relative;
 }
 
