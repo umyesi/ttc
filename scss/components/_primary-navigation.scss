@@ -99,8 +99,12 @@
 .lang-switch {
   margin-top: -9px;
 
-  .active {
+  .current-lang {
     color: $lang-switch-active-color;
+    
+      &:hover {
+        color:$lang-switch-active-color;
+    }
   }
 
   a {
@@ -108,11 +112,11 @@
     font-size: 12px;
     letter-spacing: 1.2px;
     font-family: $lang-switch-font-family;
+    &:hover {
+      color: $lang-switch-hover;
+    }
   }
 
-  &:hover {
-    color: $lang-switch-hover;
-  }
   span {
     color: $lang-switch-active-color;
     font-size: 12px;

@@ -12,6 +12,9 @@ footer {
     text-decoration: none;
     padding: 21px 440px 43px 0px;
     white-space: nowrap;
+    .current {
+      color: $footer-current-font-color;
+    }
     li {
       padding-right: 48px;
       a {
@@ -19,12 +22,12 @@ footer {
         font-size: $footer-primary-font-size;
         letter-spacing: 1.8px;
         color: $footer-primary-font-color;
-      }
-      &:hover {
-        font-family: $footer-primary-font-family;
-        font-size: $footer-primary-font-size;
-        letter-spacing: 1.8px;
-        color: $footer-primary-font-hover;
+        &:hover {
+          font-family: $footer-primary-font-family;
+          font-size: $footer-primary-font-size;
+          letter-spacing: 1.8px;
+          color: $footer-primary-font-hover;
+        }
       }
     }
   }

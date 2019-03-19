@@ -1,11 +1,12 @@
 section {
-  margin-top: 42px;
+  margin-top: 82px;
   h1 {
     font-family: $news-header-font-family;
     font-size: $news-header-font-size;
     font-weight: bold;
     color: $news-header-font-color;
     margin: 7px 0px 22px 0px;
+    width: fit-content;
   }
 }
 
@@ -48,14 +49,24 @@ section {
   margin-left: 30px;
   height: 264px;
 }
+.image-11 {
+  img {
+    width: 417px;
+    height: 264px;
+  }
+}
 .image-12 {
   @extend %block-images;
+  img {
+    width: 417px;
+    height: 264px;
+  }
 }
 
 .image-13 {
   @extend %block-images;
-}
-
-.image-13 img {
-  height: 264px;
+  img {
+    width: 417px;
+    height: 264px;
+  }
 }

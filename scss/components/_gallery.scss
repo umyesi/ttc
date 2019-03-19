@@ -6,7 +6,9 @@
 
 .image-1 {
   position: relative;
-  height: min-content;
+  width: 322px;
+  height: 522px;
+  border-radius: 4px;
 
   img {
     width: 322px;
@@ -20,6 +22,9 @@
   display: flex;
   flex-flow: column;
   margin: 318px 49px 49px;
+  width: 224px;
+  height: 70px;
+  margin-bottom: 15px;
 
   img {
     width: 224px;
@@ -29,6 +34,7 @@
 }
 
 %figcaption {
+  position: absolute;
   font-weight: bold;
   color: $gallery-font-color;
   font-family: $gallery-font-family;
@@ -37,7 +43,8 @@
 
 .image-4 {
   position: relative;
-  height: min-content;
+  width: 654px;
+  height: 256px;
   margin-left: 11px;
 
   img {
@@ -56,13 +63,13 @@
 
 .image-5 {
   position: relative;
-  height: min-content;
-  margin-left: 11px;
+  width: 322px;
+  height: 256px;
+  margin-left: 10px;
 
   img {
     width: 322px;
     height: 256px;
-    object-fit: contain;
   }
 
   figcaption {
@@ -75,14 +82,14 @@
 
 .image-6 {
   position: absolute;
-  height: min-content;
+  width: 322px;
+  height: 256px;
   margin-left: 333px;
   margin-top: 265px;
 
   img {
     width: 322px;
     height: 256px;
-    object-fit: contain;
   }
 
   figcaption {
@@ -94,9 +101,10 @@
 
 .image-7 {
   position: absolute;
-  height: min-content;
+  width: 654.7px;
+  height: 256px;
   margin-top: 264px;
-  margin-left: 664px;
+  margin-left: 665px;
 
   img {
     width: 654.7px;
@@ -112,14 +120,14 @@
 
 .image-8 {
   position: relative;
-  height: min-content;
-  margin-bottom: 12px;
-  margin-top: -2px;
+  width: 1320px;
+  height: 256px;
+  margin-bottom: 10px;
+  margin-top: 8px;
 
   img {
     width: 1320px;
     height: 256px;
-    object-fit: contain;
   }
 
   figcaption {
@@ -133,10 +141,12 @@
 }
 
 .image-9 {
-  margin-top: 13px;
+  width: 654px;
+  height: 256px;
 
   img {
-    vertical-align: super;
+    width: 654px;
+    height: 256px;
   }
 
   figcaption {
@@ -148,8 +158,13 @@
 }
 
 .image-10 {
-  margin-left: 12px;
-  margin-top: 13px;
+  margin-left: 10px;
+  width: 654px;
+  height: 256px;
+  img {
+    width: 654px;
+    height: 256px;
+  }
 
   figcaption {
     @extend %figcaption;
